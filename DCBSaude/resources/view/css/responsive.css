@@ -15,3 +15,15 @@
         width: 100%;
     }
 }
+
+@media (max-width: 600px) {
+    #conf {
+        margin: 10px;
+    }
+    #rec {
+        margin: 10px;
+    }
+    #obt {
+        margin: 10px;
+    }
+}

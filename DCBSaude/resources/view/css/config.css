@@ -1,7 +1,5 @@
 :root {
-    --fontcolor: #707070;
+    --fontcolor: #575757;
+    --fontcolor2: #fff;
     --pcolor: #FFFF;
-    --confirmadoscolor: #3FD261;
-    --recuperadoscolor: #E98234;
-    --obitoscolor: #9C20D9;
 }

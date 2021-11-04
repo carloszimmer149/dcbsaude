@@ -1,58 +1,90 @@
     body,
     html {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', sans-serif
     }
     
     #header {
-        width: 100%;
-        background-color: transparent;
-        transition: background ease-out 0.2s;
+        width: 100%
     }
     
-    #header .nav-collapse {
+    .imgs {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        border-radius: 2px;
+        -moz-border-radius: 2px
+    }
+    
+    .logo {
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        -moz-border-radius: 5px
+    }
+    
+    #navbarText {
         width: auto;
+        background-color: white;
+        border-radius: 5px;
+        -moz-border-radius: 5px
     }
     
     #header .nav-link {
         text-transform: uppercase;
         font-size: 20px;
         font-weight: 500;
-        padding-left: 0;
-        padding-right: 0;
-        color: var(--fontcolor);
-        border-bottom: solid 4px transparent;
+        color: var(--fontcolor)
     }
     
     #header .nav-link:hover {
-        border-bottom: solid 4px var(--fontcolor);
-        color: rgb(47, 168, 243);
+        color: rgba(47, 168, 243)
     }
     
     #dados {
         width: 100%;
         text-align: center;
+        -moz-text-align: center;
     }
     
-    #dados .col-sm {
-        border: solid 2px black;
-        margin-left: 15px;
-        margin-right: 15px;
+    #conf {
+        background-color: rgba(5, 255, 38, 0.9);
+        margin-right: 10px;
+        border: 0;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        color: var(--fontcolor2);
+        padding: 5px 0px 0px;
     }
     
-    #dados .col-md {
-        border: solid 2px black;
-        margin-left: 15px;
-        margin-right: 15px;
+    #rec {
+        background-color: rgba(255, 136, 0, 0.9);
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 0;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        color: var(--fontcolor2);
+        font-size: auto;
+        padding: 5px 0px 0px;
     }
     
-    #dados .col-lg {
-        border: solid 2px black;
-        margin-left: 15px;
-        margin-right: 15px;
+    #obt {
+        background-color: rgba(174, 0, 255, 0.9);
+        margin-left: 10px;
+        border: 0;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        color: var(--fontcolor2);
+        font-size: auto;
+        padding: 5px 0px 0px;
     }
     
-    #dados .col-xl {
-        border: solid 2px black;
-        margin-left: 15px;
-        margin-right: 15px;
+    #block-caroucel .row {
+        margin-top: 15px;
+        padding: 0px 0px 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 0;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        text-align: center;
     }

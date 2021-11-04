@@ -24,11 +24,11 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="http://localhost/DCBSaude/">
-                    <img src="resources\img\logo-dcbs.png" width="200" height="50" class="img-fluid" />
+                    <img src="resources\img\logo-dcbs.png" class="logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -41,17 +41,15 @@
                             <a class="nav-link" href="#">Fake News</a>
                         </li>
                     </ul>
-                    <span class="navbar-social">
-                            <a href="#">
-                                <img src="https://imgur.com/ls6cqAP.png" alt="" width="30" height="30"> 
-                            </a>
-                            <a href="#">
-                                <img src="https://imgur.com/TVJCAsE.png" alt="" width="30" height="30"> 
-                            </a>
-                            <a href="#">
-                                <img src="https://imgur.com/BpQ5why.png" alt="" width="30" height="30"> 
-                            </a>
-                    </span>
+                    <a href="#">
+                        <img src="https://imgur.com/ls6cqAP.png" alt="Facebook" class="imgs">
+                    </a>
+                    <a href="#">
+                        <img src="https://imgur.com/TVJCAsE.png" alt="Instagram" class="imgs">
+                    </a>
+                    <a href="#">
+                        <img src="https://imgur.com/BpQ5why.png" alt="Twitter" class="imgs">
+                    </a>
                 </div>
             </nav>
         </div>
@@ -59,31 +57,69 @@
     <!--FIM MENU SUPERIOR-->
     <!--DADOS COVID-->
     <article>
-        <div id="dados">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <p>teste1</p>
-                    </div>
-                    <div class="col-md">
-                        <p>teste2</p>
-                    </div>
-                    <div class="col-lg">
-                        <p>teste3</p>
+        <section>
+            <div id="dados">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm" id=conf>
+                            <h6>Confirmados<br></h6>
+                            <h1>9.670
+                            </h1>
+                        </div>
+                        <div class="col-sm" id=rec>
+                            <h2>Recuperados<br>26.7800
+                            </h2>
+                        </div>
+                        <div class="col-sm" id=obt>
+                            <h2>Òbitos<br>12.6700
+                            </h2>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!--FIM DADOS COVID-->
+        <!--CARROCEL-->
+        <section>
+            <div id=block-caroucel>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <p><br>Dicas de Saúde</p>
+                            <div id=carouseldicas class="carousel-slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li class="#carouseldicas" data-slide="0"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="resources\img\carousel\caroucel3.jpg">
+                                    </div>
+                                    <div id=car2 class="carousel-item">
+                                        <img src="resources\img\carousel\carousel1.jpg">
+                                    </div>
+                                    <div id=car3 class="carousel-item">
+                                        <img src="resources\img\carousel\carousel2.jpg">
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouseldicas" role="button" data-slide="prev">]
+                                         <span class="carousel-control-prev-icon"></span>
+                                         <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouseldicas" role="button" data-slide="next">]
+                                        <span class="carousel-control-next-icon"></span>
+                                        <span class="sr-only">Proximo</span>
+                                   </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>>
+            </div>>
+            </div>>
+        </section>
+        <!--FIM CARROCEL-->
     </article>
-    <!--FIM DADOS COVID-->
-    <!--CARROCEL-->
-
-
-    <!--FIM CARROCEL-->
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="resources\view\js\bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
