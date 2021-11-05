@@ -23,6 +23,22 @@
         margin-left: auto
     }
     
+    .divfooter {
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-right: auto;
+        margin-left: auto
+    }
+    
+    .imgfooter {
+        width: 200px;
+        height: 60px;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 10px
+    }
+    
     .imgs {
         width: 30px;
         height: 30px;
@@ -96,6 +112,16 @@
     }
     
     #caroucel .row {
+        margin-top: 15px;
+        padding: 0px 0px 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 0;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        text-align: center;
+    }
+    
+    #footer .row {
         margin-top: 15px;
         padding: 0px 0px 10px;
         background-color: rgba(255, 255, 255, 0.8);
