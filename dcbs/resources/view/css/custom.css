@@ -7,7 +7,7 @@
         width: 100%
     }
     
-    .div {
+    .divheader {
         width: 100%;
         padding-right: 9%;
         padding-left: 9%;
@@ -15,10 +15,10 @@
         margin-left: auto
     }
     
-    .div2 {
+    .divbody {
         width: 100%;
-        padding-right: 8%;
-        padding-left: 8%;
+        padding-right: 10%;
+        padding-left: 10%;
         margin-right: auto;
         margin-left: auto
     }
@@ -33,7 +33,7 @@
     
     .logo {
         width: 200px;
-        height: 46px;
+        height: 50px;
         border-radius: 5px;
         -moz-border-radius: 5px
     }
@@ -57,13 +57,9 @@
     }
     
     #dados {
+        width: 100%;
         text-align: center;
         -moz-text-align: center;
-        justify-content: space-between;
-        display: flex;
-        flex-wrap: inherit;
-        align-items: center;
-        position: relative;
     }
     
     #conf {
@@ -74,9 +70,6 @@
         -moz-border-radius: 10px;
         color: var(--fontcolor2);
         padding: 5px 0px 0px;
-        justify-content: space-between;
-        flex-grow: 1;
-        align-items: center
     }
     
     #rec {
@@ -89,9 +82,6 @@
         color: var(--fontcolor2);
         font-size: auto;
         padding: 5px 0px 0px;
-        justify-content: space-between;
-        flex-grow: 1;
-        align-items: center
     }
     
     #obt {
@@ -103,12 +93,9 @@
         color: var(--fontcolor2);
         font-size: auto;
         padding: 5px 0px 0px;
-        justify-content: space-between;
-        flex-grow: 1;
-        align-items: center
     }
     
-    #carousel .row {
+    #block-caroucel .row {
         margin-top: 15px;
         padding: 0px 0px 10px;
         background-color: rgba(255, 255, 255, 0.8);
