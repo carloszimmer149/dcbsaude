@@ -7,6 +7,7 @@ class View{
     /**
      * Método responsavel por retornar o conteúdo de uma view.
      * @param string $view
+     * @param array $vars (string/numeric)
      * @return string
      */
     private static function getContentView($view){
@@ -20,10 +21,17 @@ class View{
     * @return string
     */
 
-    public static function render($view){
+    public static function render($view, $vars =[]){
         //Conteúdo da view ->
         $contentView = self::getContentView($view);
-        return $contentView;
+
+        //chaves do array de variaveis
+        $keys = array_keys($vars);
+        $keys = array_map(function($item){
+            return '{{'.$item.'}}';
+        },$keys);
+
+        return str_replace($keys, array_values($vars),$contentView);
     }
 
 }
