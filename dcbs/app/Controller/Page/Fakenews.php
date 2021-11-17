@@ -7,12 +7,12 @@ use \App\Model\Entity\Organization;
 class Fakenews extends Page{
     
     /**
-     *  Método responsável por retornar o conteúdo (view) da home.
+     *  Método responsável por retornar o conteúdo (view) da Fakenews.
      * @return string
      */
-    public static function getHome(){
+    public static function getFakenews(){
         $obOrganization = new Organization;
-        //retorna view da home
+        //retorna view da Fakenews
         $content = View::render('Page/fakenews',[
             'name' => $obOrganization->name,
             'dev' => $obOrganization->dev

@@ -1,13 +1,58 @@
 <!--Painel-->
+
+</script>
 <section id=painel>
-    <div class="divbody">
-        <div class="row">
-            <div class="col-sm">
-                <p class="name">Painel</p>
+    <div class="container">
+        <p class="name">Painel</p>
+        <div id="chart_div">
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript">
+                google.charts.load('current', {
+                    'packages': ['corechart']
+                });
+                google.charts.setOnLoadCallback(drawVisualization);
 
+                function drawVisualization() {
+                    // Some raw data (not necessarily accurate)
+                    var data = google.visualization.arrayToDataTable([
+                        ['Mês do ano', 'Confirmados', 'Recuperados', 'Óbitos'],
+                        ['01/2021', 54462, 47849, 4990, ],
+                        ['02/2021', 34027, 28332, 5291, ],
+                        ['03/2021', 59638, 51921, 6869, ],
+                        ['04/2021', 58333, 52212, 5521, ],
+                        ['05/2021', 43520, 39872, 4879, ],
+                        ['06/2021', 43836, 40082, 3202, ],
+                        ['07/2021', 37582, 34582, 3000, ],
+                        ['08/2021', 10466, 8345, 2567, ],
+                        ['09/2021', 27527, 19345, 4632, ],
+                        ['10/2021', 6761, 5234, 1101, ],
+                        ['11/2021', 4918, 3974, 629, ],
+                        ['12/2021', 0, 0, 0, ]
+                    ]);
 
-            </div>
+                    var options = {
+                        title: 'Dados da Covid-19 no Brasil',
+                        vAxis: {
+                            title: 'DCB Saúde'
+                        },
+                        hAxis: {
+                            title: 'Gráfico mensal - Confirmados - Recuperados - Óbitos'
+                        },
+                        seriesType: 'bars',
+                        series: {
+                            'auto': {
+                                type: 'line'
+                            }
+                        }
+                    };
+
+                    var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+                    chart.draw(data, options);
+                }
+            </script>
         </div>
+    </div>
+    </div>
     </div>
 </section>
 <!--FIM Painel-->

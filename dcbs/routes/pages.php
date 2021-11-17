@@ -12,12 +12,12 @@ $obRouter->get('/',[
 //rota painel
 $obRouter->get('/painel',[
     function(){
-        return new Response(200,Page\Painel::getHome());
+        return new Response(200,Page\Painel::getPainel());
     }
 ]);
 //rota fakenews
 $obRouter->get('/fakenews',[
     function(){
-        return new Response(200,Page\Fakenews::getHome());
+        return new Response(200,Page\Fakenews::getFakenews());
     }
 ]);

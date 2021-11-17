@@ -7,12 +7,12 @@ use \App\Model\Entity\Organization;
 class Painel extends Page{
     
     /**
-     *  Método responsável por retornar o conteúdo (view) da home.
+     *  Método responsável por retornar o conteúdo (view) do Painel.
      * @return string
      */
-    public static function getHome(){
+    public static function getPainel(){
         $obOrganization = new Organization;
-        //retorna view da home
+        //retorna view da Painel
         $content = View::render('Page/painel',[
             'name' => $obOrganization->name,
             'dev' => $obOrganization->dev
