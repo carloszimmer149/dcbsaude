@@ -3091,13 +3091,13 @@ fieldset:disabled .btn {
     border-color: #6c757d
 }
 
-.btn-success {
+#fakenews .btn-success {
     color: #fff;
-    background-color: #198754;
-    border-color: #198754
+    background-color: #25d366;
+    border-color: #25d366
 }
 
-.btn-success:hover {
+#fakenews .btn-success:hover {
     color: #fff;
     background-color: #157347;
     border-color: #146c43
@@ -6635,6 +6635,7 @@ fieldset:disabled .btn {
     display: flex;
     justify-content: center;
     padding: 0;
+    color: chartreuse;
     margin-right: 15%;
     margin-bottom: 1rem;
     margin-left: 15%;
@@ -6654,6 +6655,7 @@ fieldset:disabled .btn {
     background-color: #fff;
     background-clip: padding-box;
     border: 0;
+    border: solid 1px rgba(10, 10, 10, 0.856);
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     opacity: .5;
@@ -6667,7 +6669,7 @@ fieldset:disabled .btn {
 }
 
 .carousel-indicators .active {
-    opacity: 1
+    opacity: 1;
 }
 
 .carousel-caption {

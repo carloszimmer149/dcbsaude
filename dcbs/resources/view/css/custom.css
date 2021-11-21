@@ -1,199 +1,283 @@
-    body,
-    #header {
-        width: auto;
-    }
-    /**Estilos Header**/
-    
-    .divheader {
-        width: auto;
-        padding-right: 9%;
-        padding-left: 9%;
-        margin-right: auto;
-    }
-    /**Estilo Logo**/
-    
-    .logo {
-        width: 200px;
-        height: 46px;
-        border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
-        -moz-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
-        box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
-    }
-    /**Estilo DIV Menu e redesSociais**/
-    
-    #navbarText {
-        width: auto;
-        background-color: white;
-        border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
-        -moz-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
-        box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
-    }
-    /**Estilo Escrita Menu**/
-    
-    #header .nav-link {
-        text-transform: uppercase;
-        font-size: 20px;
-        font-weight: 500;
-        color: var(--fontcolor)
-    }
-    /**Estilo hover Escrita Menu**/
-    
-    #header .nav-link:hover {
-        color: rgba(47, 168, 243)
-    }
-    /**Estilo Div Body**/
-    
-    .divbody {
-        width: auto;
-        padding-right: 10%;
-        padding-left: 10%;
-        margin-right: auto;
-        margin-left: auto
-    }
-    /**Estilo Dados**/
-    
-    .dados {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-style: normal;
-        text-align: center;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 30px;
-        letter-spacing: .0px;
-        color: #ffffff;
-        min-height: 50px
-    }
-    
-    #dados {
-        width: 100%;
-        min-height: 50px;
-        position: relative;
-        border-radius: 4px;
-        overflow: auto;
-        margin-top: 10px;
-        color: #ffffff;
-    }
-    
-    #caroucel .row {
-        margin-top: 10px;
-        padding: 0px 0px 10px;
-        background-color: rgba(255, 255, 255, 0.8);
-        border: 0;
-        border-radius: 5px;
-        -moz-border-radius: 5px;
-        text-align: center;
-        color: var(--fontcolor);
-        overflow: hidden;
-    }
-    
-    #conf {
-        background-color: rgba(65, 167, 235, 0.966);
-        width: 100%;
-        min-height: 50px;
-        position: relative;
-        border-radius: 5px;
-        overflow: auto;
-        margin-left: auto;
-        /**text-shadow: 0.1em 0.1em #333;**/
-    }
-    
-    #rec {
-        background-color: rgba(65, 167, 235, 0.966);
-        width: 100%;
-        min-height: 50px;
-        position: relative;
-        border-radius: 5px;
-        overflow: auto;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    
-    #obt {
-        background-color: rgba(65, 167, 235, 0.966);
-        width: 100%;
-        min-height: 50px;
-        position: relative;
-        border-radius: 5px;
-        overflow: auto;
-        margin-right: auto;
-    }
-    
-    .carouseltxt {
-        font-style: normal;
-        text-align: left;
-    }
-    
-    .imgs {
-        width: 30px;
-        height: 30px;
-        margin-right: 5px;
-        border-radius: 2px;
-        -moz-border-radius: 2px
-    }
-    /**Titulo Carousel**/
-    
-    .name {
-        font-family: poppins, sans-serif;
-        font-style: normal;
-        text-align: center;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 35px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        margin-bottom: 0px;
-        color: var(--fontcolor);
-    }
-    
-    .name2 {
-        font-family: poppins, sans-serif;
-        font-style: normal;
-        text-align: center;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 35px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        margin-bottom: 0px;
-    }
-    
-    #footer .row {
-        margin-top: 10px;
-        padding: 0px 0px 10px;
-        background-color: rgba(255, 255, 255, 0.8);
-        border: 0;
-        border-radius: 5px;
-        -moz-border-radius: 5px;
-        text-align: center;
-        line-height: 30px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        margin-bottom: 0px;
-    }
-    
-    .divfooter {
-        width: 100%;
-        padding-right: 10%;
-        padding-left: 10%;
-        margin-right: auto;
-        margin-left: auto
-    }
-    
-    .imgfooter {
-        width: 200px;
-        height: 60px;
-        margin-right: 20px;
-        margin-left: 20px;
-        padding-top: 10px
-    }
-    /**Painel**/
-    
-    #chart_div {
-        width: 100%;
-    }
+        body,
+        #header {
+            width: auto;
+        }
+        /**Estilos Header**/
+        
+        .divheader {
+            width: auto;
+            padding-right: 9%;
+            padding-left: 9%;
+            margin-right: auto;
+        }
+        /**Estilo Logo**/
+        
+        .logo {
+            width: 200px;
+            height: 46px;
+            border-radius: 5px;
+            -webkit-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
+            -moz-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
+            box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
+        }
+        /**Estilo DIV Menu e redesSociais**/
+        
+        #navbarText {
+            width: auto;
+            background-color: white;
+            border-radius: 5px;
+            -webkit-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
+            -moz-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
+            box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.59);
+        }
+        /**Estilo Escrita Menu**/
+        
+        #header .nav-link {
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 500;
+            color: var(--fontcolor)
+        }
+        /**Estilo hover Escrita Menu**/
+        
+        #header .nav-link:hover {
+            color: rgba(47, 168, 243)
+        }
+        /**Estilo Div Body**/
+        
+        .divbody {
+            width: auto;
+            padding-right: 10%;
+            padding-left: 10%;
+            margin-right: auto;
+            margin-left: auto
+        }
+        /**Estilo Dados**/
+        
+        .dados {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-style: normal;
+            text-align: center;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 30px;
+            letter-spacing: .0px;
+            color: #ffffff;
+            min-height: 50px
+        }
+        
+        #dados {
+            width: 100%;
+            min-height: 50px;
+            position: relative;
+            border-radius: 4px;
+            overflow: auto;
+            margin-top: 10px;
+            color: #ffffff;
+            -webkit-text-stroke-width: 2px rgba(0, 0, 0, 0.144);
+        }
+        
+        #caroucel .col-sm {
+            border-top: 1px solid rgba(0, 0, 0, 0.126);
+        }
+        
+        #caroucel .row {
+            margin-top: 10px;
+            padding: 0px 0px 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 0;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            text-align: center;
+            color: var(--fontcolor);
+            overflow: hidden;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.126);
+            border-left: 1px solid rgba(0, 0, 0, 0.126);
+            border-right: 1px solid rgba(0, 0, 0, 0.126);
+        }
+        
+        #conf {
+            background-color: rgba(65, 167, 235, 0.966);
+            width: 100%;
+            min-height: 50px;
+            position: relative;
+            border-radius: 5px;
+            overflow: auto;
+            margin-left: auto;
+            border: 1px solid rgba(0, 0, 0, 0.126);
+        }
+        
+        #rec {
+            background-color: rgba(65, 167, 235, 0.966);
+            width: 100%;
+            min-height: 50px;
+            position: relative;
+            border-radius: 5px;
+            overflow: auto;
+            margin-left: 10px;
+            margin-right: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.126);
+        }
+        
+        #obt {
+            background-color: rgba(65, 167, 235, 0.966);
+            width: 100%;
+            min-height: 50px;
+            position: relative;
+            border-radius: 5px;
+            overflow: auto;
+            margin-right: auto;
+            border: 1px solid rgba(0, 0, 0, 0.126);
+        }
+        
+        .carouseltxt {
+            font-style: normal;
+            text-align: left;
+        }
+        
+        .carousel-indicators .active {
+            background-color: rgba(59, 94, 252, 0.712);
+            color: rgba(59, 94, 252, 0.712);
+        }
+        
+        #caroucel .carousel-indicators {
+            color: rgba(59, 94, 252, 0.712);
+        }
+        
+        .imgs {
+            width: 30px;
+            height: 30px;
+            margin-right: 5px;
+            border-radius: 2px;
+            -moz-border-radius: 2px
+        }
+        /**Titulo Carousel**/
+        
+        .name {
+            font-family: poppins, sans-serif;
+            font-style: normal;
+            text-align: center;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 35px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 0px;
+            color: var(--fontcolor);
+        }
+        
+        .name2 {
+            font-family: poppins, sans-serif;
+            font-style: normal;
+            text-align: center;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 35px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 0px;
+        }
+        
+        #footer .row {
+            margin-top: 10px;
+            padding: 0px 0px 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 0;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            text-align: center;
+            color: var(--fontcolor);
+            overflow: hidden;
+            border: 1px solid rgba(0, 0, 0, 0.126);
+        }
+        
+        .divfooter {
+            width: 100%;
+            padding-right: 10%;
+            padding-left: 10%;
+            margin-right: auto;
+            margin-left: auto
+        }
+        
+        .imgfooter {
+            width: 200px;
+            height: 60px;
+            margin-right: 20px;
+            margin-left: 20px;
+            padding-top: 10px
+        }
+        /**Painel**/
+        
+        #chart_div {
+            width: auto;
+        }
+        /**Fakenews**/
+        
+        #fakenews .row-fluid {
+            margin-top: 10px;
+            padding: 0px 0px 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 0;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            text-align: center;
+            line-height: 30px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 0px;
+        }
+        
+        .fakeimg {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .name3 {
+            font-family: poppins, sans-serif;
+            font-style: normal;
+            text-align: center;
+            font-size: 22px;
+            line-height: 35px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 0px;
+        }
+        
+        #fakenews .card0 {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, 0.226);
+            border-radius: .25rem;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        #fakenews .card1 {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, 0.226);
+            border-radius: .25rem;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .fonte {
+            font-size: 11px;
+            padding: 0px;
+            margin: 0px;
+        }
