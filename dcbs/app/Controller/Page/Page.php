@@ -15,7 +15,10 @@ class Page{
         return View::render('Page/page',[
         'title' => $title,
         'content' => $content,
-        'dev' => $obOrganization->dev
+        'dev' => $obOrganization->dev,
+        'confirmados' => $obOrganization->confirmados,
+        'recuperados' => $obOrganization->recuperados,
+        'obitos' => $obOrganization->obitos
         ]);
 
     }
