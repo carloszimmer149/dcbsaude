@@ -2,7 +2,7 @@
 
 require __DIR__.'/vendor/autoload.php';
 require 'config.php';
-require 'App/Dao/conexao.php';
+require 'App/Dao/CovidDaoMysql.php';
 
 use App\Http\Router;
 

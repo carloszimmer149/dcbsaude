@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Model\Entity;
+require 'App/Dao/CovidDaoMysql.php';
 
 class Organization{
 
