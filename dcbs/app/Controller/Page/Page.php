@@ -3,8 +3,9 @@
 namespace App\Controller\Page;
 use \App\Utils\View;
 use \App\Model\Entity\Organization;
+
 class Page{
-    
+
     /**
      *  Método responsável por retornar o conteúdo (view) da page.
      * @return string
