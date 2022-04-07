@@ -23,3 +23,4 @@ class Fakenews extends Page{
     return parent::getPage('DCB Saúde - Fakenews', $content);    
     }
 }
+?>

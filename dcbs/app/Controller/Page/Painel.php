@@ -24,3 +24,4 @@ class Painel extends Page{
     return parent::getPage('DCB Saúde - Painel', $content);    
     }
 }
+?>

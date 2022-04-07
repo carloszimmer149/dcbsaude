@@ -21,3 +21,4 @@ $obRouter->get('/fakenews',[
         return new Response(200,Page\Fakenews::getFakenews());
     }
 ]);
+?>

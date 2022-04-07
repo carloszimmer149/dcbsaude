@@ -23,3 +23,4 @@ class Home extends Page{
     return parent::getPage('DCB Saúde - HOME', $content);    
     }
 }
+?>
