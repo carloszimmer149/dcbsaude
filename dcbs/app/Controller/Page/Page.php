@@ -16,9 +16,6 @@ class Page{
         'title' => $title,
         'content' => $content,
         'dev' => $obOrganization->dev,
-        'confirmados' => $obOrganization->confirmados,
-        'recuperados' => $obOrganization->recuperados,
-        'obitos' => $obOrganization->obitos
         ]);
 
     }
