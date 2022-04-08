@@ -22,24 +22,5 @@ class Organization{
      * @var string
      */
     public $dev = 'Carlos Zimmer - 2021';
-
-    /**
-     * marca desenvolvedor
-     * 
-     */
-    public $confirmados = $covid->getCasosNovos();
-
-    /**
-     * marca desenvolvedor
-     * @var string
-     */
-    public $recuperados = $covid->getRecuperadoNovos();
-
-    /**
-     * marca desenvolvedor
-     * @var string
-     */
-    public $obitos = $covid->getObitosNovos();
-
 }
 ?>
