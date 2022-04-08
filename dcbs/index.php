@@ -13,6 +13,3 @@ include __DIR__."/routes/pages.php";
 $obRouter->run()
          ->sendResponse();
 
-//Conexao com o banco de dados mysql
-
-

@@ -4,6 +4,9 @@ namespace App\Controller\Page;
 use \App\Utils\View;
 use \App\Model\Entity\Organization;
 
+//Conexao com o banco de dados mysql
+include("App/Dao/conexao.php");
+
 class Page{
 
     /**
