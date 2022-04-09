@@ -1,0 +1,7 @@
+#Arquivo de configuração do apache
+
+# liga o rewrite - avisa o apache que deve chamar o index quando a pagina estiver errada
+RewriteEngine on
+# regra rewrite envia tudo para index
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ ./index.php [QSA,NC]
