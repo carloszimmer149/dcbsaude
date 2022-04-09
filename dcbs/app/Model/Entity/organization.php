@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Model\Entity;
+use \App\Dao\Busca;
 
 
 class Organization{
@@ -22,5 +23,26 @@ class Organization{
      * @var string
      */
     public $dev = 'Carlos Zimmer - 2021';
+
+    /**
+     * marca desenvolvedor
+     * @var int
+     */
+    public $confirmados;
+
+    /**
+     * marca desenvolvedor
+     * @var int
+     */
+    public $recuperados;
+
+    /**
+     * marca desenvolvedor
+     * @var int
+     */
+    public $obitos;
+
+
+    
 }
 ?>

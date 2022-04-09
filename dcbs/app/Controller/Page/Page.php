@@ -17,13 +17,12 @@ class Page{
         'title' => $title,
         'content' => $content,
         'dev' => $obOrganization->dev,
+        'confirmados' => $obOrganization->confirmados,
+        'recuperados' => $obOrganization->recuperados,
+        'obitos' => $obOrganization->obitos,
         ]);
-        //Conexao com o banco de dados mysql
-        include("App/Dao/conexao.php");
-        //busca no banco de dados
-        $sql = "SELECT count (casosNovos, Recuperadonovos, obitosNovos) FROM covid22 ";
-        $con = $mysqli->query($sql) or die($mysqli->error);
-        mysqli_close($mysqli);
+    
+        
     }
 }
 

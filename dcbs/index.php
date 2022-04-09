@@ -1,11 +1,18 @@
 <?php
 
 require __DIR__.'/vendor/autoload.php';
+
 use App\Http\Router;
+
+
+
 
 define('URL','http://localhost/dcbs');
 
+
+//inicia o router
 $obRouter = new Router(URL);
+
 //inclui as rotas de pagina
 include __DIR__."/routes/pages.php";
 
