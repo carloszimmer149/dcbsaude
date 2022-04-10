@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Model\Entity;
-use \App\Dao\Busca;
+
 
 
 class Organization{
@@ -28,7 +28,7 @@ class Organization{
      * marca desenvolvedor
      * @var int
      */
-    public $confirmados;
+    public $confirmados = 9999;
 
     /**
      * marca desenvolvedor
